@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="temp_style.css">
 </head>
 <body>
     <header>
@@ -24,26 +25,26 @@
                 <ul class="nav navbar-nav justify-content-center col-lg-4">
                   <li class="active"><a href="#">Home</a></li>
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Rent
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="rent.html">Rent
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#">Studio</a></li>
-                      <li><a href="#">1 Bedroom</a></li>
-                      <li><a href="#">2 Bedroom</a></li>
+                      <li><a href="rent.html">Studio</a></li>
+                      <li><a href="rent.html">1 Bedroom</a></li>
+                      <li><a href="rent.html">2 Bedroom</a></li>
                     </ul>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Buy
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="buy.html">Buy
                         <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Single Family Homes</a></li>
-                          <li><a href="#">Townhomes</a></li>
-                          <li><a href="#">Apartments</a></li>
+                          <li><a href="buy.html">Single Family Homes</a></li>
+                          <li><a href="buy.html">Townhomes</a></li>
+                          <li><a href="buy.html">Apartments</a></li>
                         </ul>
                   <li><a href="#">Contact Us</a></li>
                 </ul>
                 
 
-                <form class="navbar-form navbar-left" action="/action_page.php">
+                <form class="navbar-form navbar-left" action="/backend/action_page.php">
                     <div class="input-group">
                       <input type="text" class="form-control" placeholder="Search">
                       <div class="input-group-btn">
@@ -90,6 +91,49 @@
     </div>
   </div>
 </div>
+
+<br><br><br><br>
+
+<footer class="footer fixed-bottom mt-auto py-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">CHEZ_RENTALS</h5>
+        <p>Browse our wide selection of rental properties and find the perfect place for you.</p>
+        <a href="#" class="btn btn-primary">Explore Rentals</a>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Rental Application Process</a></li>
+          <li><a href="#">Pet Policies</a></li>
+          <li><a href="#">Maintenance Requests</a></li>
+          <li><a href="#">FAqs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Stay Connected</h5>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#" class="text-dark"><i class="bi bi-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="#" class="text-dark"><i class="bi bi-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="#" class="text-dark"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">Subscribe to our Newsletter</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <button type="submit" class="btn btn-outline-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="text-center py-2 border-top">
+    <p>&copy; 2024 All Rights Reserved. House Rentals</p>
+  </div>
+</footer>
+
 
 </body>
 </html>
